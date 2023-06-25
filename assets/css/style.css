@@ -431,76 +431,6 @@ body {
  * responsive for larger than 580px screen
  */
 
-@media (min-width: 580px) {
-  /**
-   * REUSED STYLE
-   */
-
-  .container {
-    max-width: 580px;
-    margin-inline: auto;
-  }
-
-  .btn {
-    --fs-5: 16px;
-    --padding: 12px 30px;
-  }
-
-  section:not(.cta) :is(.section-subtitle, .section-title, .section-text) {
-    text-align: center;
-  }
-
-  .section-text {
-    margin-bottom: 40px;
-  }
-
-  .card-text {
-    --fs-5: 15px;
-  }
-
-  /**
-   * HEADER
-   */
-
-  .header {
-    padding-top: 83px;
-  }
-
-  .helpline-box .icon-box {
-    padding: 14px;
-  }
-
-  .search-btn {
-    font-size: 30px;
-  }
-
-  .nav-open-btn {
-    font-size: 40px;
-  }
-
-  .header .btn {
-    --fs-5: 14px;
-    --padding: 6px 20px;
-  }
-
-  /**
-   * HERO
-   */
-
-  .hero {
-    min-height: 800px;
-    padding-top: 85px;
-  }
-
-  .hero-text {
-    --fs-5: 15px;
-  }
-
-  .btn-group {
-    gap: 20px;
-  }
-}
-
 /*-----------------------------------*\
  * #TOUR SEARCH
 \*-----------------------------------*/
@@ -1464,5 +1394,12 @@ address {
 
   .container {
     max-width: 1180px;
+  }
+}
+
+/* fix width logo */
+@media only screen and (max-width: 739px) {
+  .header-top .logo img {
+    max-width: 65px;
   }
 }

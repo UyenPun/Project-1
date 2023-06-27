@@ -147,7 +147,7 @@ body {
 .btn-primary:is(:hover, :focus) {
   color: var(--black);
   background: var(--white);
-  border-color: var(--white);
+  border-color: var(--black);
 }
 
 .btn-secondary {

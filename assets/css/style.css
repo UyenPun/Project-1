@@ -635,7 +635,7 @@ body {
 }
 
 .package-card .card-price {
-  background: var(--united-nations-blue);
+  background: var(--bright-navy-blue);
   color: var(--white);
   padding: 25px 20px;
   text-align: center;
